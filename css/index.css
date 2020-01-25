@@ -90,7 +90,7 @@ nav  {
 .navbar a {
     text-decoration: none;
     
-    font-size: 1.5em;
+    font-size: 1em;
     color: black;
     /*border: 1px solid black;*/
 }
@@ -138,6 +138,7 @@ nav  {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -149,6 +150,9 @@ nav  {
     justify-content: center;
 }
 
+.box: nth-child(2)  {
+    background: teal;
+}
 
 .bottom-content {
     display: flex;
@@ -181,4 +185,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.about {
+    /*border: 2px solid skyblue;*/
+    border-bottom: 1px solid gray;
+    padding-bottom: 3%;
+}
+
+.about-plan {
+    display: flex;
+    flex-flow: nowrap;
+}
+
+.about-working {
+    padding-top: 2%;
+}
+
+.about-about {
+   /* order: 1px dashed black; */
+}
+
+.plan {
+    /*border: 1px dashed black;*/
+    display: flex;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    justify-content: space-around;
+    padding: 2%;
+
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    justify-content: space-around;
+    padding: 2%;
+    border-bottom: 1px dashed gray;
 }
