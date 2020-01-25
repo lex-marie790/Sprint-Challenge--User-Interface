@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+nav  {
+    display: flex;
+    margin: 0%;
+    width: 75%;
+    justify-content: space-evenly;
+    /*border: 5px dashed red;*/
+}
+
+.navbar {
+    /*border: 1px solid black;*/
+	display: flex;
+    flex-direction: row-reverse;
+    padding-top: 4%;
+    height: 5%;
+}
+
+.navbar a {
+    text-decoration: none;
+    
+    font-size: 1.5em;
+    color: black;
+    /*border: 1px solid black;*/
+}
+
+.header-img {
+    /*border: 3px solid blue;*/
+	position: absolute;
+	left: 21%;
+    top: 2%;
+}
+
+
+.header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +148,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
