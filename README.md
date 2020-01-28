@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Clear and Concise coding
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block - takes up more space if needed
+Display: inline - only takes up the space given
 
 3. What are the 4 areas of the box model?
 
+Margin
+Border
+Padding
+Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Main-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Lets you collaborat easily with teammembers. Helps prevent mess ups that can happen.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -74,25 +88,25 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [X] box1: `teal`
+* [X] box2: `gold`
+* [X] box3: `cadetblue`
+* [X] box4: `coral`
+* [X] box5: `crimson`
+* [X] box6: `forestgreen`
+* [X] box7: `darkorchid`
+* [X] box8: `hotpink`
+* [X] box9: `indigo`
+* [X] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
 * [X] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
+* [X] Update the header image with the about page image
 * [X] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -101,6 +115,6 @@ In your solution, it is essential that you follow best practices and produce cle
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
+* [X] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries

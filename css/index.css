@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 nav  {
@@ -150,8 +151,43 @@ nav  {
     justify-content: center;
 }
 
-.box: nth-child(2)  {
-    background: teal;
+#box-one {
+    background-color: teal;
+}
+
+#box-two {
+    background-color: gold;
+}
+
+#box-three {
+    background-color: cadetblue;
+}
+
+#box-four {
+    background-color: coral;
+}
+
+#box-five {
+    background-color: crimson;
+}
+
+#box-six {
+    background-color: forestgreen;
+}
+
+#box-seven {
+    background-color: darkorchid;
+}
+
+#box-eight {
+    background-color: hotpink;
+}
+#box-nine {
+    background-color: indigo;
+}
+
+#box-ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -190,8 +226,8 @@ footer nav a {
 /* About Page */
 
 .about {
-    /*border: 2px solid skyblue;*/
-    border-bottom: 1px solid gray;
+    /* border: 2px solid skyblue; */
+    border-bottom: 2px dashed black;
     padding-bottom: 3%;
 }
 
@@ -200,17 +236,27 @@ footer nav a {
     flex-flow: nowrap;
 }
 
-.about-working {
+
+/* .about-working {
     padding-top: 2%;
-}
+} */
 
 .about-about {
-   /* order: 1px dashed black; */
+   order: 2px dashed black;
 }
 
 .plan {
-    /*border: 1px dashed black;*/
+    /* border: 1px dashed black; */
     display: flex;
+    align-content: center;
+}
+
+.plan2 {
+    /* border: 1px dashed black; */
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    
 }
 
 .first-content {
@@ -219,7 +265,14 @@ footer nav a {
     margin-top: 4%;
     justify-content: space-around;
     padding: 2%;
+    /* border-bottom: 1px dashed gray; */
+    align-content: center;
+    display: flex;
+    flex-direction: column;
 
+}
+p {
+    padding-bottom: 5%;
 }
 
 .second-content {
@@ -227,6 +280,55 @@ footer nav a {
     flex-direction: column;
     margin-top: 4%;
     justify-content: space-around;
-    padding: 2%;
-    border-bottom: 1px dashed gray;
+    padding: 3%;
+    /* border-bottom: 1px dashed gray; */
+    align-content: center;
 }
+
+.how {
+    border-bottom: 2px dashed gray;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Strategy {
+    border-bottom: 2px dashed gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.Place{
+    border-bottom: 2px dashed gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.collab {
+    border-bottom: 2px dashed gray;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    padding-top: 3%;
+    text-align: justify;
+}
+
+button {
+    border:2px solid black;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    width: 40%;
+    margin-bottom: 12%;
+}
+
+button:hover {
+    color:white;
+    background-color: darkmagenta;
+}
+
